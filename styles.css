@@ -5,18 +5,20 @@
     margin-bottom: 25px;
 }
 
-.container div {
+.responsive {
     border: 3px solid purple;
     margin: 20px;
     padding: 5px;
     flex: 1 1 auto;
+    width: 100%;
+    height: auto;
+}
+
+.responsive img {
+    width: 100%;
+    height: 100%;
 }
 
 h3{
     text-align: center;
-}
-
-img {
-    height: 20;
-    width: 20;
 }
