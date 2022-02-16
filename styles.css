@@ -1,6 +1,7 @@
 .container {
     display: flex;
     width: 1000px;
+    height: auto;
     border: 5px solid black;
     margin-bottom: 25px;
     flex-flow: row wrap
@@ -17,7 +18,7 @@
 .responsive img {
     width: 100%;
     height: 100%;
-    flex: 2 1 auto;
+    flex: 1 1 auto;
 }
 
 h3{
