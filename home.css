@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+    background-color: gray;
+}
+
+ul {
+    display: flex;
+}
