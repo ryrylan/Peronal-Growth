@@ -3,6 +3,8 @@
     background-color: whitesmoke;
     padding: 16px;
     font-family: 'Courier New', Courier, monospace;
+    height: 25px;
+    width: auto;
 }
 
 .rylan {
@@ -29,15 +31,23 @@ button {
 
 button a {
     color: black;
-    font-size: larger;
+    font-size: 15px;
 }
 
-ul a {
+
+a.left,.right:link {
+    text-decoration: none;
     color: purple;
 }
 
-a {
-    text-decoration: none;
+a.left:hover {
+    color: black;
+    background-color: blueviolet;
+    font-size: larger;
+}
+
+a.right:hover {
+    font-size: 19px;
 }
 
 ul {
