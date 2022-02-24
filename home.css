@@ -2,10 +2,14 @@
     display: flex;
     background-color: whitesmoke;
     padding: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .rylan {
     color: purple;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic;
 }
 
 .left,
@@ -15,9 +19,25 @@
     gap: 16px;
 }
 
+.right {
+    margin-left: auto;
+}
+
+button {
+    background-color: purple;
+}
+
+button a {
+    color: black;
+    font-size: larger;
+}
+
+ul a {
+    color: purple;
+}
+
 a {
     text-decoration: none;
-    color: purple;
 }
 
 ul {
@@ -25,4 +45,5 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
+    gap: 16px;
 }
