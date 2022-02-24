@@ -1,8 +1,28 @@
 .header {
     display: flex;
-    background-color: gray;
+    background-color: whitesmoke;
+    padding: 16px;
+}
+
+.rylan {
+    color: purple;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
 }
 
 ul {
+    list-style-type: none;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
