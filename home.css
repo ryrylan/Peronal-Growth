@@ -26,12 +26,13 @@
 }
 
 button {
-    background-color: purple;
+    background-color: blueviolet;
 }
 
 button a {
     color: black;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 
